@@ -1,0 +1,77 @@
+html{
+    margin: 0%;
+}
+body{
+    background-color:  #FAF8F5;
+    color: #FAF9DC;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    background-image: url('double-bubble-outline.png');
+    margin-top: 0%;
+}
+#wrapper{
+    margin: auto;
+    width: 1000px;
+    background-color: #ADAD90;
+    margin-top: none;
+    height: 600px;
+    margin-top: 0%;
+}
+#innerWrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    float: left;
+    margin-left: 25px;
+    width: 40%;
+    height: 70%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
+header{display: flex;
+    text-align: center;
+    background-color: #E8EAFA;
+    color: #AD8438;
+    margin-top: 0%;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    margin: auto;
+    }
+footer{
+    background-color: #E8EAFA;
+    color: #AD8438;
+        text-align: center;
+        width: 1000px;
+        margin: auto;
+    }
+a{
+    text-decoration: none;
+     color: #FAF9DC;
+}
+p{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0%;
+    line-height: 2.5;
+    font-size: 24px
+}
+h2{
+    text-align: center;
+}
+a:hover{
+    font-weight: bold;
+}
